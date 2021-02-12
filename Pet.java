@@ -1,6 +1,7 @@
 import java.util.*;
 import java.time.LocalDateTime;
 
+// pet class to be used for dogs and cats
 class Pet {
 	Scanner read = new Scanner(System.in);// Scanner class to read input from reader.
 	private String petType;// attributes
@@ -92,7 +93,7 @@ class Pet {
 		}
 	}
 }
-
+// dog class for if the customer has a pet dog
 class Dog extends Pet {
 	public int dogSpaceNbr;
 	public int dogWeight;
